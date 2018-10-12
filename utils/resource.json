@@ -1,0 +1,147 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"properties": {
+		"name": {
+			"dataFieldType": "text",
+			"type": "string"
+		},
+		"sn": {
+			"dataFieldType": "text",
+			"type": "string"
+		},
+		"starter": {
+			"dataFieldType": "text",
+			"type": "string"
+		},
+		"starterOrg": {
+			"dataFieldType": "text",
+			"type": "string"
+		},
+		"startTime": {
+			"dataFieldType": "text",
+			"type": "string"
+		},
+		"status": {
+			"dataFieldType": "text",
+			"type": "string"
+		},
+		"businessStatus": {
+			"dataFieldType": "text",
+			"type": "string"
+		},
+		"field-text": {
+			"dataFieldType": "text",
+			"type": "string"
+		},
+		"field-textarea": {
+			"dataFieldType": "text",
+			"type": "string"
+		},
+		"field-number": {
+			"dataFieldType": "text",
+			"type": "string"
+		},
+		"field-money": {
+			"dataFieldType": "text",
+			"type": "string"
+		},
+		"field-date": {
+			"dataFieldType": "text",
+			"type": "string"
+		},
+		"field-date_range": {
+			"dataFieldType": "text",
+			"type": "string"
+		},
+		"field-selection": {
+			"dataFieldType": "text",
+			"type": "string"
+		},
+		"field-multi_selection": {
+			"dataFieldType": "text",
+			"type": "string"
+		},
+		"field-image": {
+			"dataFieldType": "text",
+			"type": "string"
+		},
+		"field-file": {
+			"dataFieldType": "text",
+			"type": "string"
+		},
+		"field-description": {
+			"dataFieldType": "text",
+			"type": "string"
+		},
+		"field-database_view": {
+			"dataFieldType": "text",
+			"type": "string"
+		},
+		"field-mobile": {
+			"dataFieldType": "text",
+			"type": "string"
+		},
+		"field-email": {
+			"dataFieldType": "text",
+			"type": "string"
+		},
+		"field-phone": {
+			"dataFieldType": "text",
+			"type": "string"
+		},
+		"field-employee": {
+			"dataFieldType": "text",
+			"type": "string"
+		},
+		"field-org": {
+			"dataFieldType": "text",
+			"type": "string"
+		},
+		"field-calculate": {
+			"dataFieldType": "text",
+			"type": "string"
+		},
+		"field-sub_form": {
+			"dataFieldType": "table",
+			"type": "array",
+			"items": {
+				"type": "object",
+				"properties": {
+					"field-text": { "type": "string" },
+					"field-textarea": { "type": "string" },
+					"field-number": { "type": "string" },
+					"field-money": { "type": "string" },
+					"field-date": { "type": "string" },
+					"field-date_range": { "type": "string" },
+					"field-selection": { "type": "string" },
+					"field-multi_selection": { "type": "string" },
+					"field-image": { "type": "string" },
+					"field-file": { "type": "string" },
+					"field-description": { "type": "string" },
+					"field-database_view": { "type": "string" },
+					"field-mobile": { "type": "string" },
+					"field-email": { "type": "string" },
+					"field-phone": { "type": "string" },
+					"field-employee": { "type": "string" },
+					"field-org": { "type": "string" },
+					"field-calculate": { "type": "string" }
+				}
+			}
+		},
+		"tasks": {
+			"dataFieldType": "table",
+			"type": "array",
+			"items": {
+				"type": "object",
+				"properties": {
+					"name": { "type": "string" },
+					"option": { "type": "string" },
+					"comment": { "type": "string" },
+					"approver": { "type": "string" },
+					"approveTime": { "type": "string" }
+				}
+			}
+		}
+	},
+	"type": "object"
+}
